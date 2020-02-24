@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>cart</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon.ico">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header-in">
+				<div class="logo">
+					<a href="#">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li class="nootrop">
+							<a href="#">Ноотроп</a>
+						</li>
+						<li class="omega">
+							<a href="#">Омега 3</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-toggle">
+					<button type="button"><span></span></button>
+				</div>
+				<div class="header-callback">
+					<button data-target="contact" type="button" class="btn modal-open">Связаться с нами</button>
+				</div>
+				<div class="cart-button">
+					<a href="#">
+						<span>3</span>
+						<img src="img/cart-icon.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+    <div class="page">
+		<div class="page-in">
+			<div class="inner">
+				<div class="container">
+					<div class="breadcrumbs">
+						<ul>
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>Корзина</li>
+						</ul>
+					</div>
+					<h1>Корзина</h1>
+					<div class="cart">
+						<div class="cart-top">
+							<div class="cart-product-img">Товар</div>
+							<div class="cart-product-name">Название</div>
+							<div class="cart-product-qty">Количество</div>
+							<div class="cart-product-price">Цена</div>
+							<div class="cart-product-delete">Удалить</div>
+						</div>
+						<div class="cart-list">
+							<div class="cart-item">
+								<div class="cart-product-img">
+									<img src="img/nootrop-medium.png" alt="">
+								</div>
+								<div class="cart-product-name">Go Primal Nootrop Focus & Power</div>
+								<div class="cart-product-qty">
+									<div class="buy-qty-block">
+										<button type="button" class="minus">-</button>
+										<span>1</span>
+										<button type="button" class="plus">+</button>
+									</div>
+								</div>
+								<div class="cart-product-price"><span>Р</span> 4299</div>
+								<div class="cart-product-delete">
+									<button type="button">
+										<img src="img/cart.svg" alt="">
+									</button>
+								</div>
+							</div>
+							<div class="cart-item">
+								<div class="cart-product-img">
+									<img src="img/omega-medium.png" alt="">
+								</div>
+								<div class="cart-product-name">Go Primal Omega 3 Protection & Perfomance</div>
+								<div class="cart-product-qty">
+									<div class="buy-qty-block">
+										<button type="button" class="minus">-</button>
+										<span>1</span>
+										<button type="button" class="plus">+</button>
+									</div>
+								</div>
+								<div class="cart-product-price"><span>Р</span> 4299</div>
+								<div class="cart-product-delete">
+									<button type="button">
+										<img src="img/cart.svg" alt="">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cart-bottom">
+						<div class="cart-total">
+							<div class="cart-total-title">Сумма к оплате:</div>
+							<div class="cart-total-price"><span>Р</span> 4299</div>
+						</div>
+						<a href="#" class="btn">Оформить заказ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fractures fractures1">
+			<img src="img/fractures1.png" alt="">
+		</div>
+		<div class="fractures fractures2">
+			<img src="img/fractures2.png" alt="">
+		</div>
+    </div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-in">
+				<div class="copyright">
+					<a href="#">GoPrimal.com</a>
+				</div>
+				<div class="socials">
+					<a href="#">
+						<img src="img/facebook.svg" alt="">
+					</a>
+					<a href="#">
+						<img src="img/google-plus.svg" alt="">
+					</a>
+					<a href="#">
+						<img src="img/twitter.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div data-id="contact" class="modal">
+		<div class="modal-in">
+			<div class="modal-cont">
+				<button type="button" class="modal-close"></button>
+				<div class="modal-title">Чтобы мы могли<br> связаться с вами,<br> <b>заполните форму</b></div>
+				<form action="">
+					<input type="text" placeholder="Ваше ФИО">
+					<input type="tel" placeholder="Ваш телефон">
+					<input type="email" placeholder="Ваш email">
+					<button type="submit" class="btn">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div class="modal-back"></div>
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
